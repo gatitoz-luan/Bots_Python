@@ -79,7 +79,7 @@ def connectBD():
         print('Iniciando conexão com banco de dados')
         global sql_server_conection
         global cursor_sql_server
-        sql_server_conection=pyodbc.connect(r'DRIVER={ODBC Driver 17 for SQL Server};SERVER=10.1.140.172;DATABASE=DH1MVP_HUB;UID=qlik-sebrae-sc;PWD=$3bR@eBISC!2021;')
+        sql_server_conection=pyodbc.connect(r'DRIVER={**************************')
         cursor_sql_server=sql_server_conection.cursor()
         
         print('Conectado')
